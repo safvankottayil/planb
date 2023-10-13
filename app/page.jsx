@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className=" flex min-h-screen flex-col items-center  ">
+    <main className=" bg-black text-white flex min-h-screen flex-col items-center  ">
       <Navbar />
       <div className="flex md:flex-row flex-col-reverse items-center relative pt-52 ">
         <div className="md:w-1/2 p px-5 md:pl-5">
