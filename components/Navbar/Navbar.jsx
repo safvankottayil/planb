@@ -14,9 +14,9 @@ function Navbar() {
       width={140}
       height={140}
       loading='lazy'
-      className='md:pl-4 py-2 mr-5'
+      className='md:pl-4 w-20 md:w-fit md:h-fit h-20 py-2 mr-5'
       />
-      <div className='md:flex hidden flex-grow items-center justify-end pr-10'>
+      <div className='md:flex  flex-grow items-center justify-end pr-10'>
         {items.map((item)=>{
             return(
                 <Link className='capitalize font-extrabold px-8' href={item.url}>
